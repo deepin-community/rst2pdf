@@ -1,0 +1,871 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/Outlines 10 0 R /PageLabels 16 0 R /PageMode /UseNone /Pages 13 0 R /Type /Catalog
+>>
+endobj
+9 0 obj
+<<
+/Author () /CreationDate (D:20000101000000+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (SEE ISSUE TRACKER #264) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 2 /First 11 0 R /Last 12 0 R /Type /Outlines
+>>
+endobj
+11 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 705.0236 0 ] /Next 12 0 R /Parent 10 0 R /Title (XXX XXXXXX XXXXXXXX)
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 198.0236 0 ] /Parent 10 0 R /Prev 11 0 R /Title (XXX XXXXXXXX XXX XXX)
+>>
+endobj
+13 0 obj
+<<
+/Count 2 /Kids [ 6 0 R 7 0 R ] /Type /Pages
+>>
+endobj
+14 0 obj
+<<
+/Length 10014
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 741.0236 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 120.8842 0 Td (SEE ISSUE TRACKER #264) Tj T* -120.8842 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 684.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (XXX XXXXXX XXXXXXXX) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 672.0236 cm
+Q
+q
+1 0 0 1 57.02362 528.0236 cm
+q
+1 1 1 rg
+n 0 144 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 126 481.2283 -18 re f*
+1 1 1 rg
+n 0 108 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 90 481.2283 -30 re f*
+1 1 1 rg
+n 0 60 481.2283 -30 re f*
+.878431 .878431 .878431 rg
+n 0 30 481.2283 -30 re f*
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 129 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 200.6992 0 Td (Xxxx xxx xxxx) Tj T* -200.6992 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 12.40177 0 Td (Xxxx) Tj T* -12.40177 0 Td ET
+Q
+Q
+q
+1 0 0 1 66.15354 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 5.956749 0 Td (Xxxx) Tj T* -5.956749 0 Td ET
+Q
+Q
+q
+1 0 0 1 113.417 111 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 169.2307 0 Td (Xxxx) Tj T* -169.2307 0 Td ET
+Q
+Q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxxxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxxxxxx xxxx xxxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (xxxxxxxxx) Tj T* (x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxxxxxxxxxxxxx xxx xxx xxx xxxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (xxxxxxxxx) Tj T* (x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx xxxx xxx xxxx xxxxxx xx xxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (xxxxxxxxx) Tj T* (x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx xxxx xxx xxxxx xxxxx xxxx xxxxx) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 126 m 481.2283 126 l S
+n 0 108 m 481.2283 108 l S
+n 0 90 m 481.2283 90 l S
+n 0 60 m 481.2283 60 l S
+n 0 30 m 481.2283 30 l S
+n 60.15354 0 m 60.15354 126 l S
+n 107.417 0 m 107.417 126 l S
+n 0 144 m 481.2283 144 l S
+n 0 0 m 481.2283 0 l S
+n 0 0 m 0 144 l S
+n 481.2283 0 m 481.2283 144 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 528.0236 cm
+Q
+q
+1 0 0 1 57.02362 522.0236 cm
+Q
+q
+1 0 0 1 57.02362 402.0236 cm
+q
+1 1 1 rg
+n 0 120 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 102 481.2283 -18 re f*
+1 1 1 rg
+n 0 84 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 66 481.2283 -18 re f*
+1 1 1 rg
+n 0 48 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 30 481.2283 -30 re f*
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 200.6992 0 Td (Xxxx xxx xxxx) Tj T* -200.6992 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 12.40177 0 Td (Xxxx) Tj T* -12.40177 0 Td ET
+Q
+Q
+q
+1 0 0 1 66.15354 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 5.956749 0 Td (Xxxx) Tj T* -5.956749 0 Td ET
+Q
+Q
+q
+1 0 0 1 113.417 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 169.2307 0 Td (Xxxx) Tj T* -169.2307 0 Td ET
+Q
+Q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxx xxxxxxx xxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxx xxxxxxx x xxx xxxxx xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxx xxxxxxxx xxxxxx xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 66.15354 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (XX) Tj T* (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 113.417 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxx xxxxxxx xxxxxxxx xxxx) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 102 m 481.2283 102 l S
+n 0 84 m 481.2283 84 l S
+n 0 66 m 481.2283 66 l S
+n 0 48 m 481.2283 48 l S
+n 0 30 m 481.2283 30 l S
+n 60.15354 0 m 60.15354 102 l S
+n 107.417 0 m 107.417 102 l S
+n 0 120 m 481.2283 120 l S
+n 0 0 m 481.2283 0 l S
+n 0 0 m 0 120 l S
+n 481.2283 0 m 481.2283 120 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 402.0236 cm
+Q
+q
+1 0 0 1 57.02362 396.0236 cm
+Q
+q
+1 0 0 1 57.02362 210.0236 cm
+q
+1 1 1 rg
+n 0 186 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 168 481.2283 -18 re f*
+1 1 1 rg
+n 0 150 481.2283 -18 re f*
+.878431 .878431 .878431 rg
+n 0 132 481.2283 -30 re f*
+1 1 1 rg
+n 0 102 481.2283 -30 re f*
+.878431 .878431 .878431 rg
+n 0 72 481.2283 -42 re f*
+1 1 1 rg
+n 0 30 481.2283 -30 re f*
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 6 171 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 200.6992 0 Td (Xxxx xxx xxxx) Tj T* -200.6992 0 Td ET
+Q
+Q
+q
+1 0 0 1 6 153 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 14.26493 0 Td (Xxxx) Tj T* -14.26493 0 Td ET
+Q
+Q
+q
+1 0 0 1 69.87987 153 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 5.747619 0 Td (Xxxx) Tj T* -5.747619 0 Td ET
+Q
+Q
+q
+1 0 0 1 116.7251 153 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 167.5766 0 Td (Xxxx) Tj T* -167.5766 0 Td ET
+Q
+Q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.87987 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 116.7251 135 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (ssss ssss ss sss ssss sssssssssssss ssss sss ssssss sss sss sss sssssssss) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.87987 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 116.7251 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (ssss sssss. sss ssss sssss sssss sssusssstsss sss ssss ssss sss ssssss) Tj T* (ssssosss sUs sssssss sss sssssss sssss ssss ssss ssss ss ssssss ss ssssss.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.87987 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 116.7251 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Xxxx Xxxxx. Xxxxxxx xxxx xx xxxxxxx xxx xxxxxx xxxxxs xxxxxxxxx xxxxxxxxx,) Tj T* (xxxx xxxx xxxxxxxxxxx xxx xxxx. Xxx Xxxx Xxxxx xxxxxxxxxx xxx xxxx xxxx.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.87987 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (XX) Tj T* (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 116.7251 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL (XXXX XXXXXX. XXXXXXX XXXX XXX XXXXXX XXX XXXXXXXX XXXX XXXX) Tj T* (XXX XXXXXX XXX XXX XXXX XXXXXX, XXXX XXXXXXXXXXX XXX XXXXX.) Tj T* (XXX XXXX XXXXX XXXXXXXXXX XXX XXXX XXXX.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 69.87987 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxxxxx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 116.7251 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Aaaaaa aaa aaaaaaaa aaaaaa aaaaaa. Aaa XXXXX output xxxx Xxx xxx xxxx) Tj T* (xxx xx xxx iiiii bbbb ii ttt itititititi rrrrrrrr hhh nnnnnnnnnnnnn ii ttt hhhhh.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 168 m 481.2283 168 l S
+n 0 150 m 481.2283 150 l S
+n 0 132 m 481.2283 132 l S
+n 0 102 m 481.2283 102 l S
+n 0 72 m 481.2283 72 l S
+n 0 30 m 481.2283 30 l S
+n 63.87987 0 m 63.87987 168 l S
+n 110.7251 0 m 110.7251 168 l S
+n 0 186 m 481.2283 186 l S
+n 0 0 m 481.2283 0 l S
+n 0 0 m 0 186 l S
+n 481.2283 0 m 481.2283 186 l S
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 210.0236 cm
+Q
+q
+1 0 0 1 57.02362 177.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (XXX XXXXXXXX XXX XXX) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 159.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (Xxxx xx xx xxx xx xxx xxxxxxxx xxxxx:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 84.02362 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 62 Tm  T* ET
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (XXXX xxxxxxxxx xx xxx xx xxxxxxx xxx x xxxxx) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xx xx x xxx) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxx xx xx xx xxx) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (xxxxxxxxxx xxxxxxxxx xxx xxxxxxxx) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+Q
+ 
+endstream
+endobj
+15 0 obj
+<<
+/Length 1618
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .528241 Tw (Xxxxxx xxxxxxx, xxxxxxxx xxx xx xxxx xxxxx xxxxx, xx xx xxxxxxxx xx xxxxxxxx xxx. Xxx xxxxxx xx xxx xxx) Tj T* 0 Tw (xxx xxx xxxxxxxxx xxxxxx xx xxxx, xxx xxxx xx xxxxxxxxxx xx xxxxxxx xxxxx xxxxxx.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 723.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxx xxxxxxx xxxxxxx xxxxxxxxxxxx xxxxxxx xxx xxxxxxxxx xx xxx XXX xxxxxxxxx xxx:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 717.0236 cm
+Q
+q
+1 0 0 1 57.02362 657.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 42 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Xxx xxxxxxx xxxxxxxxx xxxxxxxx xx xxxxxxxx xxxxx-xxxxx xx XXX XXX xxxx xxxxxxx x XXX XXXX.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 0 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .683196 Tw (Xxx xxxxxxx xxxxxxxxx xxxxxxxx xx xxxxxxxx xxxx xxxxx xxx xxxxx xxxxxx xxxxxxxxxxx xxxxxxxx) Tj T* 0 Tw 1.806213 Tw (xx xxxx xx xxxxx xxx xxxxxxxxxx xxxxxx xxxxxxxxxxxx xxx xxxxxxxxxxxxxx xxxxxxx xxxxxxxxx,) Tj T* 0 Tw (xxxxxxxx xx xx xx xx xxxxxx-xx-xxxxxx xxxx xx xxx xxxxxxxx.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 657.0236 cm
+Q
+ 
+endstream
+endobj
+16 0 obj
+<<
+/Nums [ 0 17 0 R 1 18 0 R ]
+>>
+endobj
+17 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+18 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000073 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000350 00000 n 
+0000000462 00000 n 
+0000000567 00000 n 
+0000000772 00000 n 
+0000000977 00000 n 
+0000001082 00000 n 
+0000001361 00000 n 
+0000001435 00000 n 
+0000001555 00000 n 
+0000001676 00000 n 
+0000001742 00000 n 
+0000011809 00000 n 
+0000013479 00000 n 
+0000013529 00000 n 
+0000013563 00000 n 
+trailer
+<<
+/ID 
+[<b3c65c8c30703698e2a603bdb5265c16><b3c65c8c30703698e2a603bdb5265c16>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 19
+>>
+startxref
+13597
+%%EOF
