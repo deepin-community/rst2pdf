@@ -1,5 +1,239 @@
-template-repository (1.0-1) unstable; urgency=medium
+rst2pdf (0.99-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release; Closes: #639544
+  * debian/control
+    - bump Standards-Version to 4.6.2.0 (no changes needed)
+  * debian/copyright
+    - extend packaging copyright years
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sandro Tosi <morph@debian.org>  Wed, 04 Jan 2023 19:17:16 -0500
+
+rst2pdf (0.98-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 15 Sep 2021 23:29:11 -0400
+
+rst2pdf (0.98-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright
+    - update upstream copyright notice
+  * debian/control
+    - remove pdfrw, upstream no longer uses it; Closes: #962651
+    - remove six from b-d, no longer needed
+    - add new b-d: importlib-metadata, packaging
+  * debian/patches/disable_scm.patch
+    - dont use setuptools_scm
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 08 Sep 2020 22:59:47 -0400
+
+rst2pdf (0.97-2) unstable; urgency=medium
+
+  * properly spell 'fontconfig' in Depends; Closes: #960571
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 27 May 2020 11:52:20 -0400
+
+rst2pdf (0.97-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright
+    - update upstream copyright information
+  * debian/control
+    - add fontconfig to Depends; Closes: #960571
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 26 May 2020 22:33:01 -0400
+
+rst2pdf (0.96-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/patches
+    - remove patches, merged upstream
+  * debian/control
+    - bump Standards-Version to 4.5.0 (no changes needed)
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 03 Feb 2020 18:36:48 -0500
+
+rst2pdf (0.95-1) unstable; urgency=medium
+
+  [ Elena Grandi ]
+  * Drop fix_invariant_dates.patch merged upstream.
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+  * d/control: Fix wrong Vcs-*.
+
+  [ Sandro Tosi ]
+  * New upstream release; Closes: #929954
+  * debian/control
+    - add myself to Uploaders; will help out with this package; Closes: #876681
+    - add fontconfig, jinja2, matplotlib, smartypants, six to b-d, needed by doc
+    - update Homepage field
+  * debian/copyright
+    - add myself to Debian packaging contributions
+    - update upstream copyright notice (by running `cme update dpkg-copyright`
+      and then manually fixing it)
+  * Switch to python3; Closes: #938416
+  * Build documentation without using get_docs.sh
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 02 Jan 2020 13:21:05 -0500
+
+rst2pdf (0.93-7) unstable; urgency=medium
+
+  * Move packaging under the PAPT.
+  * Add dependency on python3-pygments. (Closes: #917886)
+  * Suggest python-pil instead of python-imaging. (Closes: #866477)
+  * Use https URL in debian/copyright.
+  * Updated compat version to 11.
+  * Updated Standards-Version to 4.3.0 (no changes needed)
+
+ -- Elena Grandi <valhalla@debian.org>  Wed, 09 Jan 2019 19:08:52 +0100
+
+rst2pdf (0.93-6) unstable; urgency=medium
+
+  * Depend on python-pypdf2 instead of python-pypdf. (Closes: #840801)
+
+ -- Elena Grandi <valhalla-d@trueelena.org>  Sat, 26 Nov 2016 14:22:41 +0100
+
+rst2pdf (0.93-5) unstable; urgency=medium
+
+  * Apply patch from Chris Lamb (Closes: #777251)
+  * Updated Standards-Version to 3.9.8 (no changes needed)
+  * Updated compat version to 9
+  * Updated upstream homepage
+  * Converted debian/copyright to machine-readable format
+  * Updated VCS URLs
+
+ -- Elena Grandi <valhalla-d@trueelena.org>  Wed, 17 Aug 2016 13:57:58 +0200
+
+rst2pdf (0.93-4) unstable; urgency=medium
+
+  * Adopting the package (Closes: #738304)
+  * Updated Standards-Version to 3.9.5 (no changes needed)
+  * Converting to pybuild
+  * Use upstream manpage instead of a debian generated one
+
+ -- Elena Grandi <valhalla-d@trueelena.org>  Sun, 17 Aug 2014 12:51:30 +0100
+
+rst2pdf (0.93-3) unstable; urgency=medium
+
+  * QA upload.
+  * Build using dh_python2
+
+ -- Matthias Klose <doko@debian.org>  Sun, 13 Jul 2014 16:15:05 +0000
+
+rst2pdf (0.93-2) unstable; urgency=medium
+
+  * Orphaning package.
+
+ -- Chris Lamb <lamby@debian.org>  Sun, 09 Feb 2014 00:17:37 +0000
+
+rst2pdf (0.93-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #730547)
+  * Bump Standards-Version to 3.9.4.
+  * Require at least python-pdfrw 0.1 to avoid a
+    pkg_resources.DistributionNotFound traceback.
+
+ -- Chris Lamb <lamby@debian.org>  Tue, 26 Nov 2013 18:32:07 +0000
+
+rst2pdf (0.16-2) unstable; urgency=low
+
+  * Bump Standards-Version to 3.9.2.
+  * Drop embedded pdfrw code copy (Closes: #638507)
+  * Specify copyright information for pdfrw code copy (Closes: #638500)
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 24 Aug 2011 23:40:13 +0100
+
+rst2pdf (0.16-1) unstable; urgency=low
+
+  * New upstream release.
+    - Don't throw error on CTRL-C (Closes: #608721)
+  * Update Vcs-{Git,Browser}.
+  * Bump Standards-Version to 3.9.1.
+
+ -- Chris Lamb <lamby@debian.org>  Sun, 20 Mar 2011 06:33:31 +0000
+
+rst2pdf (0.14.2-1) unstable; urgency=low
+
+  * New upstream release.
+    - Fixes upstream font issue:
+      <http://code.google.com/p/rst2pdf/issues/detail?id=262>
+      (Closes: #579358)
+  * Bump Standards-Version to 3.8.4.
+  * Move to dpkg '3.0 (quilt)' source format.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 28 Apr 2010 00:16:02 +0100
+
+rst2pdf (0.12.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add 'python-aafigure' to Suggests: (Closes: #564417)
+
+ -- Chris Lamb <lamby@debian.org>  Tue, 12 Jan 2010 23:27:56 +0000
+
+rst2pdf (0.12.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-version to 3.8.3.
+  * Relax Build-Depends on debhelper to 7.0.50~ to help any backporters.
+
+ -- Chris Lamb <lamby@debian.org>  Sun, 18 Oct 2009 23:36:36 +0100
+
+rst2pdf (0.11-1) unstable; urgency=low
+
+  * New upstream release.
+  * Don't set executable bit on test script anymore.
+  * Bump Standards-Version to 3.8.2.
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 26 Jun 2009 12:02:54 +0100
+
+rst2pdf (0.10.1-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #529606)
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 20 May 2009 17:37:35 +0100
+
+rst2pdf (0.9-4) unstable; urgency=low
+
+  * Move python-pygments from Suggests: to Depends: (Closes: #519565)
+  * Bump Standards-Version to 3.8.1.
+
+ -- Chris Lamb <lamby@debian.org>  Fri, 13 Mar 2009 15:15:04 +0000
+
+rst2pdf (0.9-3) unstable; urgency=low
+
+  * Add python-setuptools to Depends. (Closes: #519277)
+  * Update Git repository locations.
+  * Move to minimal debian/rules.
+    - Bump Build-Depends on debhelper for override_* feature.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 11 Mar 2009 14:52:32 +0000
+
+rst2pdf (0.9-2) unstable; urgency=low
+
+  * Add missing Depends: on python-pkg-resources (Closes: #507560)
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 03 Dec 2008 23:09:42 +0000
+
+rst2pdf (0.9-1) unstable; urgency=low
+
+  * New upstream release.
+    - Add Depends on python-simplejson
+    - Add Suggests on python-uniconvertor, python-imaging, python-sphinx and
+      python-matplotlib
+    - Move python-pygments from Recommends to Suggests
+  * New maintainer email address.
+  * Use non-native versioning system.
+
+ -- Chris Lamb <lamby@debian.org>  Mon, 27 Oct 2008 01:56:10 +0000
+
+rst2pdf (0.6) unstable; urgency=low
+
+  * Initial release (Closes: #496864)
+
+ -- Chris Lamb <chris@chris-lamb.co.uk>  Mon, 01 Sep 2008 20:48:49 +0100
