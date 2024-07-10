@@ -1,0 +1,12 @@
+Document: rst2pdf-manual
+Title: How to use rst2pdf
+Author: Roberto Alsina
+Abstract: This manual describes what rst2pdf is, and how it can be used.
+Section: Typesetting
+
+Format: Text
+Files: /usr/share/doc/rst2pdf/manual.rst.gz
+
+Format: HTML
+Index: /usr/share/doc/rst2pdf/manual.html
+Files: /usr/share/doc/rst2pdf/*.html
