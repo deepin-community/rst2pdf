@@ -1453,7 +1453,7 @@ PDF fonts (``Tuffy-Bold``, ``Tuffy-Oblique``, ``Tuffy-BoldOblique``, etc..)
 
 Now, if you use *italics* in a paragraph whose style uses the Tuffy font, it
 will use ``Tuffy_Italic``. That's why it's better if you use fonts that provide
-the four variants, and that you lsit them in the correct order.
+the four variants, and that you list them in the correct order.
 
 If your font lacks a variant, use the "normal" variant instead.
 
@@ -2014,6 +2014,9 @@ To use it in your existing Sphinx project you need to do the following:
 
     # Name of the cover page template to use
     # pdf_cover_template = 'sphinxcover.tmpl'
+
+    # Label to use as a prefix for the subtitle on the cover page
+    # subtitle_prefix = 'version'
 
     # Documents to append as an appendix to all manuals.
     # pdf_appendices = []
