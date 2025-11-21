@@ -1,0 +1,4 @@
+.pybuild/
+doc/output/html/manual.html
+doc/output/rst2pdf.1
+rst2pdf.egg-info/

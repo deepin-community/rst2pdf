@@ -1,3 +1,37 @@
+rst2pdf (0.102-4) unstable; urgency=medium
+
+  * Team upload
+  * Drop B-D python3-fitz (Closes: #1095375)
+
+  [ Alexandre Detiste ]
+  * python3-setuptools and python3-pkg-resources are not needed at runtime
+
+ -- Bastian Germann <bage@debian.org>  Fri, 28 Feb 2025 23:15:48 +0100
+
+rst2pdf (0.102-3) unstable; urgency=medium
+
+  * Team upload
+  * Revert "Deal with PyMuPDF installed as fitz_old"
+  * Depend on sufficiently new PyMuPDF (Closes: #1088257, #1089526)
+
+ -- Bastian Germann <bage@debian.org>  Wed, 15 Jan 2025 10:04:47 +0100
+
+rst2pdf (0.102-2) unstable; urgency=medium
+
+  * Team upload.
+  * Remove leftover dependency on python3-simplejson
+
+ -- Alexandre Detiste <tchet@debian.org>  Sat, 31 Aug 2024 00:05:39 +0200
+
+rst2pdf (0.102-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 0.102
+  * Deal with PyMuPDF installed as fitz_old (Closes: #1074644)
+  * Clean package properly (Closes: #1048463)
+
+ -- Bastian Germann <bage@debian.org>  Fri, 12 Jul 2024 20:46:28 +0200
+
 rst2pdf (0.101-3) unstable; urgency=medium
 
   * Team upload.

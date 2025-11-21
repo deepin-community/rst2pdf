@@ -30,6 +30,5 @@ export PYBUILD_AFTER_BUILD=cd doc ; \
 %:
 	dh $@ --with python3 --buildsystem=pybuild
 
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -rf .pybuild/ rst2pdf.egg-info/
+override_dh_auto_test:
+	echo Tests are temporarily disabled due to pymupdf being in a bad state.

@@ -2,25 +2,22 @@ Source: rst2pdf
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Elena Grandi <valhalla@debian.org>
 Section: utils
-Testsuite: autopkgtest-pkg-pybuild
 Priority: optional
 Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: fontconfig,
                      pybuild-plugin-pyproject,
                      python3-all,
                      python3-docutils,
-                     python3-fitz <!nocheck>,
                      python3-importlib-metadata,
                      python3-jinja2,
                      python3-matplotlib,
                      python3-packaging,
-                     python3-pkg-resources,
+                     python3-pkg-resources <!nocheck>,
                      python3-pygments,
                      python3-pytest <!nocheck>,
                      python3-reportlab,
                      python3-setuptools,
                      python3-setuptools-scm,
-                     python3-simplejson,
                      python3-smartypants,
                      python3-sphinx <!nocheck>,
                      python3-svglib <!nocheck>,
@@ -35,11 +32,8 @@ Package: rst2pdf
 Architecture: all
 Depends: fontconfig,
          python3-docutils,
-         python3-pkg-resources,
          python3-pygments,
          python3-reportlab,
-         python3-setuptools,
-         python3-simplejson,
          ${misc:Depends},
          ${python3:Depends}
 Suggests: python3-aafigure,
