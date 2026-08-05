@@ -63,9 +63,11 @@ Tests are in ``tests`` directory. Within this folder:
 Run Checks Locally
 ==================
 
-When you open a pull request, we run some automated checks to make sure everything is in order. We recommend you install these tools locally to check things over as you go along. We use the `pre-commit`__ framework, which you can install with pip::
+When you open a pull request, we run some automated checks to make sure everything is in order. We recommend you
+install these tools locally to check things over as you go along. We use the `pre-commit`__ framework, which you can
+install with ``uv``::
 
-    pip install pre-commit
+    uv tool install pre-commit
 
 Once installed, enable it by running this command::
 
@@ -73,7 +75,11 @@ Once installed, enable it by running this command::
 
 .. __: https://pre-commit.com/
 
-It will let you know if any of the formatting/build tools are reporting problems.
+It will let you know if any of the formatting/build tools are reporting problems when you commit your changes.
+
+To run the pre-commit checks manually, run this command::
+
+    pre-commit run --all-files --show-diff-on-failure
 
 Run the Tests
 =============
@@ -100,31 +106,30 @@ Set up to run tests
 *******************
 
 To run the tests for the first time, you will need to do some setup (after
-this, you can just work on your given virtualenv each time)::
+this, any ``uv`` commands will automatically work within the right virtual
+environment)::
 
-    python -m venv env
-    . env/bin/activate
+    uv sync --all-extras
 
-    pip install pytest pytest-xdist
-    pip install -c requirements.txt .[tests,sphinx,svgsupport,aafiguresupport,mathsupport,rawhtmlsupport]
+If you don't have ``uv``, please see `the installation docs <https://docs.astral.sh/uv/getting-started/installation/>`_
 
 Run tests
 *********
 
 To run all tests, run::
 
-  pytest
+    uv run pytest
 
 You can also run tests in parallel by passing the ``-n auto`` flag::
 
-  pytest -n auto
+    uv run pytest -n auto
 
 Running a single test
 *********************
 
 To run one test only, pass the file or directory to pytest. For example::
 
-  pytest tests/input/sphinx-repeat-table-rows
+    uv run pytest tests/input/sphinx-repeat-table-rows
 
 This will run one test and show the output.
 
@@ -140,14 +145,15 @@ where we don't want to delete/lose the test entirely.
 Updating dependencies
 *********************
 
-The specific versions of all dependencies that are used for CI testing are stored in ``requirements.txt``.
+The specific versions of all dependencies that are used for CI testing are stored in ``uv.lock``.
 
-To update, change to a venv that has Python 3.8+ installed and run::
+To upgrade all dependencies to their latest versions (while satisfying any constraints in ``pyproject.toml``), run::
 
-      pip install pip-tools
-      pip-compile --extra=aafiguresupport --extra=mathsupport --extra=plantumlsupport \
-        --extra=rawhtmlsupport --extra=sphinx --extra=svgsupport --extra=tests \
-        --output-file requirements.txt setup.py
+    uv lock --upgrade
+
+To update an existing dependency, e.g., to add a lower bound to the reportlab version::
+
+    uv add 'reportlab>4.0.0'
 
 Tips and Tricks
 ===============

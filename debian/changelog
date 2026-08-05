@@ -1,3 +1,55 @@
+rst2pdf (0.104-1) unstable; urgency=medium
+
+  * Team upload.
+  * Add debian/salsa-ci.yml
+  * Rewrite d/watch in v5 format
+  * New upstream version 0.104
+  * Drop old build-dependencies:
+    * python3-importlib-metadata
+    * python3-smarty-pants
+  * Remove 0.103.1-3 patch applied upstream
+
+ -- Alexandre Detiste <tchet@debian.org>  Sat, 10 Jan 2026 13:17:30 +0100
+
+rst2pdf (0.103.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Patch-out usage of python3-pkg-resources (Closes: #1083758)
+  * This already uses dh-sequence-python3, trim d/rules of duplicate call
+  * Bump Standards-Version to 4.7.3, drop Priority: tag
+
+ -- Alexandre Detiste <tchet@debian.org>  Fri, 02 Jan 2026 12:06:24 +0100
+
+rst2pdf (0.103.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix debian/copyright.
+
+ -- Stephen Kitt <skitt@debian.org>  Wed, 22 Oct 2025 22:08:14 +0200
+
+rst2pdf (0.103.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Delete the snap directory and adjust package discovery and data
+    installation.
+  * Add dependency on python3-roman (Closes: #1118331).
+  * Restore the build-dependency on python3-pkg-resources.
+  * Drop the dependency on python3-uniconvertor, it never existed in
+    Debian.
+
+ -- Stephen Kitt <skitt@debian.org>  Sat, 18 Oct 2025 14:31:17 +0200
+
+rst2pdf (0.102-5) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.7.2
+  * Drop "Rules-Requires-Root: no"
+  * Add build-dep on dh-sequence-python3 to build the source on Salsa CI
+  * Remove duplicate build-dep. on python3-pkg-resources,
+    this already build-depends on python3-setuptools
+
+ -- Alexandre Detiste <tchet@debian.org>  Wed, 17 Sep 2025 13:25:28 +0200
+
 rst2pdf (0.102-4) unstable; urgency=medium
 
   * Team upload

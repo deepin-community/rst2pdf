@@ -1,6 +1,35 @@
 
-{next}
-------
+
+0.104 (2026-01-08)
+------------------
+
+* Added: We now support Python 3.14 (PR #1285)
+* Changed: We now use docutil's smart quotes rather than the old, abandoned smartypants library (PR #1253)
+* Changed: When using Sphinx 8.2.0+, rst2pdf uses Sphinx's formatting for the productionlist directive
+* Changed: Improved handling of linenos directive in code blocks(PR #1286)
+* Note: A change in svglib results in text with SVGs rendering slightly smaller. See commit ``3a9955ca``
+* Note: With Pillow 11.1.0+, the dpi for an image is now populated correctly for images using cm. This
+    affects the way images are sized as rst2pdf will now use the image's dpi value rather than defaulting
+    to 300dpi.
+* Changed: We now use our own copy of docutils _roman_numerals.py from v0.22.4 (PR #1294)
+* Removed: Support for Python 3.9. Python 3.10 is the new minimum supported version of Python. (PR #1294)
+
+0.103.1 (2024-12-24)
+--------------------
+* Changed: Updated pyproject classifiers to include Python 3.13 (PR #1258)
+* Changed: Various project changes to allow releasing using uv (PR #1255, PR #1256, PR #1257)
+
+
+0.103 (2024-12-24)
+------------------
+
+* Added: We now support Python 3.13 (PR #1236)
+* Added: We now support ``emphasize-lines`` asa an alias for ``hl_lines`` (PR #1246)
+* Changed: Support PyMuPDF when it's installed as fitz_old (PR #1225)
+* Changed: We now use pyproject.toml and uv (PR #1240, PR #1242)
+* Fixed: We now run our Sphinx tests again (PR #1241)
+* Fixed: We no longer add a second document to Sphinx builds (PR #1243)
+
 
 0.102 (2024-06-05)
 ------------------

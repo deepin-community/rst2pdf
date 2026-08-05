@@ -242,8 +242,15 @@ def code_block_directive(
 
     content = content.replace('\t', ' ' * tabw)
 
+    # hl_lines is the option, but if it isn't used, the alias emphasize-lines is also supported for Sphinx compatibility
     hl_lines = options.get('hl_lines', [])
-    withln = 'linenos' in options
+    # if hl_lines isn't used, check if emphasize-lines should be
+    if hl_lines == []:
+        hl_lines = options.get('emphasize-lines', [])
+
+    # Here the value of "linenos" will generally be the empty string if the user supplied and desired it, but we also
+    # want to allow it to be present and explicitly disabled
+    withln = options.get("linenos", False) not in ("false", "False", False)
     if 'linenos_offset' not in options:
         line_offset = 0
 
@@ -387,6 +394,7 @@ code_block_directive.options = {
     'linenos_offset': zero_or_positive_int,
     'tab-width': directives.unchanged,
     'hl_lines': directives.positive_int_list,
+    'emphasize-lines': directives.positive_int_list,
     # generic
     'stripnl': string_bool,
     'stripall': string_bool,

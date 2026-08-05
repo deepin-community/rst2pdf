@@ -28,7 +28,7 @@ export PYBUILD_AFTER_BUILD=cd doc ; \
                            rst2man rst2pdf.rst output/rst2pdf.1
 
 %:
-	dh $@ --with python3 --buildsystem=pybuild
+	dh $@ --buildsystem=pybuild
 
 override_dh_auto_test:
 	echo Tests are temporarily disabled due to pymupdf being in a bad state.
