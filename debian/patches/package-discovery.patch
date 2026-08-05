@@ -1,0 +1,29 @@
+Description: Configure package discovery
+Author: Stephen Kitt <skitt@debian.org>
+
+Enable automatic package discovery and specify package data to install
+(this is normally handled by setuptools-scm but this doesn't work for
+Debian builds).
+
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -87,15 +87,14 @@
+ '''
+ 
+ [tool.setuptools]
+-packages = ["rst2pdf"]
+- # FIXME: this is a workaround; see:
+- #   - https://github.com/astral-sh/uv/issues/9513
+- #   - https://github.com/pypa/setuptools/issues/4759
+- license-files = []
+ 
+ [tool.setuptools_scm]
+ # Presence of the [tool.setuptools_scm] table enables setuptools-scm
+ 
++[tool.setuptools.package-data]
++"rst2pdf.images" = ["*.jpg", "*.png"]
++"rst2pdf.styles" = ["*.yaml"]
++"rst2pdf.templates" = ["*.tmpl"]
+ 
+ [dependency-groups]
+ dev = [
